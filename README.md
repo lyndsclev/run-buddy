@@ -12,3 +12,5 @@ https://lyndsclev.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Lyndsey 
+
+### ©️2019 Run Buddy, Inc
