@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)http://127.0.0.1:5501/01-Activities/02-Flexbox-Layout/Unsolved/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Flexbox Box Store</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  <link rel="stylesheet" type="text/css" href="./Flexbox Box Store_files/style.css"></head>
+
+  <body>
+    <header class="main-header">
+      <h1>Welcome to the store!</h1>
+      <h2>We sell stuff!</h2>
+    </header>
+
+    <main>
+    <div class="flexbox">
+      <section class="card">
+        <header>Camera</header>
+        <img src="./Flexbox Box Store_files/camera.jpg" alt="camera">
+        <p>Price: $300</p>
+      </section>
+      
+      <section class="card">
+        <header>Tablet</header>
+        <img src="./Flexbox Box Store_files/tablet.jpg" alt="tablet">
+        <p>Price: $150</p>
+      </section>
+      
+      <section class="card">
+        <header>Toilet Paper</header>
+        <img src="./Flexbox Box Store_files/toilet-paper.jpg" alt="toilet paper">
+        <p>Price: $30</p>
+      </section>
+      
+      <section class="card">
+        <header>Wooden Spoons</header>
+        <img src="./Flexbox Box Store_files/wooden-spoons.jpg" alt="wooden spoons">
+        <p>Price: $10</p>
+      </section>
+     
+      <section class="card">
+        <header>Soap</header>
+        <img src="./Flexbox Box Store_files/soap.jpg" alt="soap">
+        <p>Price: $5</p>
+      </section>
+      
+      <section class="card">
+        <header>Spinning Top</header>
+        <img src="./Flexbox Box Store_files/spinning-top.jpg" alt="spinning top">
+        <p>Price: $3</p>
+        </section>
+      </div>
+    
+    </main>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
